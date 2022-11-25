@@ -1,0 +1,25 @@
+@import './common/base.scss';
+@import './common/mixins.scss';
+@import './site/header.scss';
+@import './site/main.scss';
+
+.arrow-up {
+    position: fixed;
+    z-index: 99;
+    bottom: 1%;
+    right: 1%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #2f353b;
+
+    img {
+        width: 1rem;
+        filter: invert(1);
+    }
+}
+
+@import './common/media.scss';

@@ -1,0 +1,50 @@
+.fonWrapper__itemWrapper {
+
+    .itemWrapper__page {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, auto));
+        grid-gap: 10px;
+    }
+}
+
+// Page Item
+
+.page__item {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    div, p {
+        font-size: 0.8rem;
+    }
+    .item__photo {
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+    }
+    .item__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info__acc {
+        display: flex;
+        height: 50px;
+        .acc__photo {
+            padding-left: 10px;
+            height: 100%;
+            img {
+                width: 50px;
+            }
+        }
+
+        .acc__info {
+            padding-left: 10px;
+        }
+    }
+
+    .info__size {
+        padding-right: 10px;
+    }
+}

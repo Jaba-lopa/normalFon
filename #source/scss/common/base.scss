@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1,h2,h3,h4,h5,h6,li,a,p,span,div,button {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+}
+
+input {
+    padding-left: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.block-center {
+    width: 60%;
+    margin: 0 auto;
+}
